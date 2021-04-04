@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preload" href="../style/style.css">
+  <link rel="stylesheet" href="../style/style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+
+
+  <title>ProgPlay</title>
+</head>
+
+<body class="general">
+  <header>
+    <img src="../style/logo.png" class="logotipo" alt="Logo" height="30%" width="30%">
+  </header>
+  <div class="container mt-4">
+    <!--Header-->
+
+    <!--Nav-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light rounded col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="landing page.html">Eevee Special</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav_a nav-link active" aria-current="page" href="landing page.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav_a nav-link" href="#">Galeria <span class="badge bg-info">102</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav_a nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Herramientas
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Hacks</a></li>
+                <li><a class="dropdown-item" href="#">Historia</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Objetos ocultos</a></li>
+                <li><a class="dropdown-item" href="#">Generaciones</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-info" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg> Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--Main-->
+    <main>
+      <!--Carousel-->
+      <div class="row">
+        <div id="carouselExampleCaptions"
+          class="carousel slide rounded mt-lg-3 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12"
+          data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../style/imagen_carru_1.jpg" class="d-block w-100" alt="imagen 1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Pokemon Legendarios</h5>
+                <p>Cuenta con todos los legendarios hasta la sexta generación</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../style/imagen_carru_2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Pokemon Inicial</h5>
+                <p>Se podran obtener todos los iniciales con la histora</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../style/imagen_carru_3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Eevee Evolution</h5>
+                <p>Se encuentran las 6 evoluciones pero no sera facil obtenerlas</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+        <!--Formulario-->
+        <form
+          class="formu_1 row ms-5 mt-4 g-3 needs-validation col-xxl-5 col-xl-5 col-lg-5 col-md-12 ms-md-1 col-sm-12 ms-sm-1 col-xs-12 ms-xs-1  border border-3  rounded shadow"
+          novalidate>
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="nombre..." required>
+            <div class="valid-feedback">
+              Muy bien!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido..." required>
+            <div class="valid-feedback">
+              Muy bien!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Correo</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+                required>
+              <div class="invalid-feedback">
+                Por favor introdusca su correo.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Pais</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              De que pais proviene?.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">Ciudad</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Seleccione</option>
+              <option>Salvatierra</option>
+              <option>Celaya</option>
+              <option>Acambaro</option>
+            </select>
+            <div class="invalid-feedback">
+              de que ciudad nos visitas?.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Usuario</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Indique un usuario personalizado.
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Deseo recivir Actualizaciones.
+              </label>
+              <div class="invalid-feedback">
+                Acutalizaciones recomendadas.
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#ModalFormulario">
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="row">
+        <!--Configuración boton modal formulario-->
+        <div class="modal fade" id="ModalFormulario" tabindex="-1" aria-labelledby="ModalFormularioLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ModalFormularioLabel">Falla de Internet!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Revisa tu conexión a internet, no se puede establecer conexión
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Accordion-->
+        <div class="accordion col-xxl-6 col-xl-6 col-lg-6 col-md-12 mt-md-3 col-sm-12 mt-sm-3 col-xs-12 mt-xs-3 mt-lg-3"
+          id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button text-uppercase" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Nueva Historia
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="acc_1 accordion-body">
+                <strong>Historia Actualizada.</strong> En este nuevo Juego descubriras una historia poco conocida, sobre
+                un pokemon
+                que ha pasado desapercivido durante mucho tiempo, nadie sabe la razon de sus evoluciones, se escuchan
+                solo rumores
+                de lo que pudo suceder, pero aqui no solo te la contaremos, la podras vivir.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Dificultad Mejorada
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="acc_1 accordion-body">
+                <strong>Escapando de las peleas?</strong> Podras encontrar nuevas aventuras en este lugar, pero ten
+                cuidado, ya que
+                mientras mas avanzas, la dificultad aumenta en cuestion de nieveles de pokemon salvajes, entrenadores,
+                gimnacios y enemigos,
+                sera mejora entrenar bien a los pokemon, para no quedarte sin equipo.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Nuevas Regiones
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="acc_1 accordion-body">
+                <strong>Regiones actualizadas.</strong> En esta nueva historia podras conocer las regiones desde tiempos
+                atiguos hasta el presente,
+                la historia se desarrolla en epocas donde los pokemon apenas eran descubiertos, podras conocer las
+                antiguas regiones y las mas actualizadas
+                asi que no dejes de explorar.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Card-->
+        <div
+          class="card-group mt-3 col-xxl-6 col-xl-6 col-lg-6 col-md-12 align-content-md-center col-sm-12 justify-content-sm-center col-xs-12">
+          <div class="card col-lg-3 border border-2 border-danger" style="width: 18rem;">
+            <img src="../style/card_1.jpg" class="card-img-top" alt="Personaje">
+            <div class="card-body">
+              <h5 class="card-title">Nuevo personaje</h5>
+              <p class="card-text">Podras escojer entre los dos nuevos personajes que estaran disponibles, además
+                tendras la oportunidad
+                de personalizar a tu justo con los nuevos productos que tenemos para tí.
+              </p>
+              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-controller" viewBox="0 0 16 16">
+                  <path
+                    d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z" />
+                  <path
+                    d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z" />
+                </svg> Jugar ahora
+              </button>
+            </div>
+          </div>
+          <div class="card col-lg-3 border border-2 border-danger" style="width: 18rem;">
+            <img src="../style/card_2.png" class="card-img-top" alt="Sitio">
+            <div class="card-body">
+              <h5 class="card-title">Nuevas ciudades</h5>
+              <p class="card-text">En estas nuvos lugares tendras la oportunidad de conocer lo mejor del avance pokemon,
+                no te pierdas
+                ningun detalle, ya que se encuentran muchas cosas ocultas en estos lugares.
+              </p>
+              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-controller" viewBox="0 0 16 16">
+                  <path
+                    d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z" />
+                  <path
+                    d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z" />
+                </svg> Jugar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="alert mt-2 shadow text-center rounded-pill col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12"
+        role="alert">
+        <h2>Forma de Jugar</h2>
+        Para poder jugar requieres un emulador que podras encontrar en este <a href="">lugar</a>.
+        al instalar y comenzar el juego, asegurate de personalizar los controles.
+      </div>
+      <div class="alert shadow text-center rounded-pill col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12"
+        role="alert">
+        <h2>Nuevos Retos</h2>
+        Si crees que la historia es interesante por lo nueva y atractiva, espera a conocer todos los retos
+        que tenemos para ti, podras encontrar todos los inciales y legendarios, pero no te confies, no sera
+        tan facil como en sus diferentes versiones.
+      </div>
+      <div class="alert shadow text-center rounded-pill col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12"
+        role="alert">
+        <h2>Captura de pokemon</h2>
+        Nuevo sistema de capturas y lector de datos, esto te facilitara el encontrar los pokemon y sus datos
+        dentro de tus capturas, adems de su ubicación y ayuda de los pokemon.
+      </div>
+      <!--Configuracion de boton Modal de las Cards-->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Registrate Ahora y Descarga</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Al parecer aun no te registras para obtener la descarga, Por favor
+              dirígete al formulario, llenalo y envia tus datos.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info" data-bs-dismiss="modal">Registrar</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Footer-->
+    <!--Cuadro información-->
+    <div class="infor col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <table class="table">
+
+        <tbody>
+          <tr>
+            <th scope="row">Publicado por: <a href="landing page.html">ProgPlay</a></th>
+            <td><b>Tamaño aproximado:</b> 50MB</td>
+            <td><b>Instalación:</b> Automatica</td>
+            <td><b>Terminos adicionales:</b><a href=""> Terminos y Condiciones</a></td>
+          </tr>
+          <tr>
+            <th scope="row">Desarrollado por: <a href="landing page.html">ProgPlay</a></th>
+            <td><b>Clasificado para edad:</b> +10</td>
+            <td><b>Compatibilidad:</b> Windows, Android, IOS</td>
+            <td><b>Actualización:</b> 1-abril-2021</td>
+          </tr>
+          <tr>
+            <th scope="row">Fecha lanzamiento: 1-enero-2020</th>
+            <td colspan="2"><b>Categoria:</b> Acción, Aventura</td>
+            <td><b>Reporte de Bug:</b> Progplay@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--derechos-->
+    <footer>
+      <p class="text-center"><b>Derechos reservados por:</b> <a href="landing page.html"></a>ProgPlay</p>
+    </footer>
+  </div>
+  <div
+    class="alert alert-dark alert-dismissible fade show rounded-pill col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"
+    role="alert">
+    ¿Deseas tener nuestras COOKIES?, te informamos que al permanecer por mas de dos minutos en este lugares
+    concideramos que estas aceptando.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

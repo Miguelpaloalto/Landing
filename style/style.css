@@ -1,0 +1,29 @@
+
+.general{
+    background: #1D976C; 
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);
+    background: linear-gradient(to right, #93F9B9, #1D976C);     
+}
+header{
+    margin-left: 40%;
+    margin-top: 1rem;
+}
+.nav_a:hover{
+background-color: aquamarine;
+}
+.carousel{
+    
+}
+.navbar{
+    background-color: azure;
+}
+.acc_1{
+    background-color: rgb(153, 231, 250);
+}
+.alert{
+    background-color: rgb(155, 235, 152);
+}
+.formu_1{
+
+    background-color: azure;
+}
